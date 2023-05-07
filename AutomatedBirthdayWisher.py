@@ -13,7 +13,7 @@ import pandas as pd
 # FUNCTION TO MAKE A CONNECTION AND SEND THE EMAIL:-  ------------------------------------------------
 # Sender's mail and password
 MY_MAIL = ""       # [ Enter Your Email ]
-MY_PASSWORD = ""   # [ Enter Your Password ]
+MY_PASSWORD = ""   # [ Enter Your 16 Characters Long App Password Without Spaces ]
 
 def wishBirthday():
     # [ Enter SMTP Associated To Your Email ]
