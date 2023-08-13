@@ -26,7 +26,7 @@ def wishBirthday():
         connection.sendmail(
             from_addr=MY_MAIL, 
             to_addrs=bd_email, 
-            msg=f"Subject:Happy Birthday!\n\nDear {bd_name}\n\n{bd_wish}"
+            msg=f"Subject:Happy Birthday!\n\nHey {bd_name}\n\n{bd_wish}"
         )
 
 
